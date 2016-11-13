@@ -1,5 +1,7 @@
 # HomeWork3
-
+  !!!ЧАСТЬ1!!!
+ 
+ 
 package com.company;
 
 public class Main {
