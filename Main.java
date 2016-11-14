@@ -5,6 +5,9 @@ public class Main {
     public static void main(String[] args) {
  Shark shark1=new Shark(true);
  Shark shark2=new Shark(false);
+        
+        Fish fish1=new Fish(true,"malkov",true);
+        System.out.println("Рыби едят мясо? *"+fish1.vegetarian+"* Чем ещё питаются? *"+fish1.eats+"* Под водой дышат? *"+fish1.underwaterBreathing+"* ");
 
 Eagle orel1=new Eagle(5);
 Eagle orel2=new Eagle(10);
