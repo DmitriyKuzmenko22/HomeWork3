@@ -3,8 +3,6 @@ package com.company;
 
 public class Animal {
 
-    private boolean vegetarian1;
-
     boolean vegetarian;
     String eats;
     int noOfLegs;
