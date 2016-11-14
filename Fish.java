@@ -3,9 +3,16 @@ package com.company;
 
 public class Fish extends Animal {
 
-    public Fish(){
-    super(true,"Paul",9);
-        }
+    boolean underwaterBreathing;
+    public Fish() {
+    }
+
+    public Fish(boolean vegetarian, String eats, boolean underwaterBreathing) {
+        super(vegetarian, eats, 0);
+        this.vegetarian=vegetarian;
+        this.eats=eats;
+        this.underwaterBreathing=underwaterBreathing;
+    }
 }
 
 
